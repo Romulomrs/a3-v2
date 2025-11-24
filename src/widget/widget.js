@@ -9,6 +9,8 @@ import { clothes1 } from "./avatar/clothes/clothes1.js"
 import { clothes2 } from "./avatar/clothes/clothes2.js"
 import { hairs as hairs1 } from "./avatar/hair/hair1.js"
 import { hairs2 } from "./avatar/hair/hair2.js"
+import { hairs3 } from "./avatar/hair/hair3.js"   // ← aqui entra seu “ear2”
+
 
 function widget(key, draw) {
   const nextColor = getColorIterator(key)
@@ -33,7 +35,7 @@ function widget(key, draw) {
     clothes2.length
   )
 
-  const setIndex = maxLayouts > 0 ? key.next16() % maxLayouts : 0
+  const setIndex = 0
 
   const faceSvg = faces[setIndex]
   const neckSvg = necks[setIndex]
@@ -46,11 +48,13 @@ function widget(key, draw) {
   const clothesSvg = clothesSets[clothesStyleIndex][setIndex]
 
   // CABELO – escolher estilo dentro do layout
-  const hairSets = [hairs1, hairs2]
+  // CABELO – escolher estilo dentro do layout
+  const hairSets = [hairs1, hairs2, hairs3]   // ← adicionando o novo pack
   const numHairStyles = hairSets.length
   const hairStyleIndex =
     numHairStyles > 0 ? key.next16() % numHairStyles : 0
   const hairSvg = hairSets[hairStyleIndex][setIndex]
+
 
   // OLHOS – escolher estilo dentro do layout
   const eyeSets = [eyes1, eyes2]
@@ -74,8 +78,11 @@ function widget(key, draw) {
   avatar.svg(eyesSvg)      // olhos/óculos
   avatar.svg(hairSvg)      // cabelo por cima
 
-  avatar.move(185, 75)
-  avatar.scale(0.5)
+const wrapper = draw.group()
+wrapper.add(avatar)
+wrapper.move(185, 75)
+wrapper.scale(0.5)
+  
 }
 
 export default widget
