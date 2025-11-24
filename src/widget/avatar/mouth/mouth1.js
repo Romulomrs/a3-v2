@@ -1,7 +1,7 @@
 // src/widget/avatar/mouth/mouth1.js
 export const mouths = [
   // Variante 0 – posição base
-`<svg viewBox="10 15 220 200" xmlns="http://www.w3.org/2000/svg">
+`<svg viewBox="20 20 220 200" xmlns="http://www.w3.org/2000/svg">
      <g>
        <path
          d="m 100.35,143.85
