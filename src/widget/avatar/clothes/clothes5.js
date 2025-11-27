@@ -1,10 +1,9 @@
-// src/widget/avatar/clothes/clothes2.js
+// src/widget/avatar/clothes/clothes2.js gravata azul
 export const clothes5 = [
   // Variante 0 – alinhada com layout 0 (mesmo viewBox de clothes1[0])
-  `<svg viewBox="-13 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  `<svg viewBox="-18 5 260 260" xmlns="http://www.w3.org/2000/svg">
      <g>
        <path
-         sodipodi:nodetypes="cccccc"
          d="m 141.74999,195 c 13.56253,3.14987 26.43885,8.7409 38.00001,16.5 -38.8731,26.00051 -89.586913,26.00051 -128.46,0 11.56115,-7.7591 24.43747,-13.35013 37.999995,-16.5 8.486947,8.8011 26.209995,25.6188 26.209995,25.6188 0,0 17.60325,-16.97205 26.25,-25.6188 z"
          fill="#9ae7f6"
          fill-rule="evenodd"

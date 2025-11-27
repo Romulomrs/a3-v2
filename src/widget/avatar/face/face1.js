@@ -1,5 +1,5 @@
 export const faces1 = [
-  `<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  `<svg viewBox="-5 -23 200 200" xmlns="http://www.w3.org/2000/svg">
     <circle cx="100" cy="100" r="63.75" fill="#f6f6f6" />
    </svg>`
 ]

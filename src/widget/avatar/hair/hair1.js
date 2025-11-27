@@ -1,7 +1,7 @@
-// src/widget/avatar/hair/hair1.js
+// src/widget/avatar/hair/hair1.js inza velho redondo
 export const hairs = [
   // Variante 0 – posição base
-  `<svg viewBox="15 15 200 220"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  `<svg viewBox="10 -10 200 220"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
      <g>
        <path
          d="m 57.53393,142.0329

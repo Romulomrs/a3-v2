@@ -1,7 +1,7 @@
 // src/widget/avatar/hair/hair2.js
 export const hairs2 = [
   // Variante 0 – alinhada com hairs[0] (layout 0)
-  `<svg viewBox="20 10 190 220"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  `<svg viewBox="20 -20 190 220"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
      <g>
        <!-- topo / franja -->
        <path

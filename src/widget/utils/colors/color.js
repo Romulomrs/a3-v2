@@ -1,4 +1,4 @@
-import colorPalette from "./color-palette"
+import colorPalette from "./color-palette.js"
 const tones = ['_100', '_200', '_300', '_400', '_500', '_600', '_700', '_800', '_900']
 
 //console.log(Object.keys(colorPalette));

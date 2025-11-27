@@ -1,5 +1,5 @@
 {
-  "name": "svguid-v1",
+  "name": "@romulomrs/svguid-v1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -24,5 +24,17 @@
     "vite": "^5.2.0",
     "vite-plugin-windicss": "^1.9.3",
     "windicss": "^3.5.6"
-  }
+  },
+  "description": "<img src=\"./public/logo.png\" style=\"margin-bottom: 10px;\"/>",
+  "main": "index1.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romulomrs/a3-v2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romulomrs/a3-v2/issues"
+  },
+  "homepage": "https://github.com/Romulomrs/a3-v2#readme"
 }

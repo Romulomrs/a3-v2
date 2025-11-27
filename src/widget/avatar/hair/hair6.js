@@ -1,4 +1,4 @@
-// src/widget/avatar/hair/hair1.js
+// src/widget/avatar/hair/hair1.js //careca
 export const hairs6 = [
     // Variante 0 – posição base
     `<svg viewBox="-1000 15 200 220"  preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">

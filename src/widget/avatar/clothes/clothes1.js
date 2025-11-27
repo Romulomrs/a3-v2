@@ -1,7 +1,7 @@
-// src/widget/avatar/clothes/clothes1.js
+// src/widget/avatar/clothes/clothes1.js //preta simples
 export const clothes1 = [
   // Variante 0 – posição base
-  `<svg viewBox="-12 1 260 260" xmlns="http://www.w3.org/2000/svg">
+  `<svg viewBox="-18 10 260 260" xmlns="http://www.w3.org/2000/svg">
      <g>
        <path
          d="m 141.75,195

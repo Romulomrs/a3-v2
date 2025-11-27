@@ -1,6 +1,5 @@
-export const clothes3 = [
-    `
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-10 0 260 260">
+export const clothes3 = [ //suspensorios
+    `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-18 5 260 260">
       <path id="path12-1-9" style="fill:#c0c0c0;fill-rule:evenodd"
         d="M 115.45,211.34 126,221.88 a 2.51,2.51 0 0 0 3.5599,0 2,2 0 0 0 0.26999,-0.30994 
         l 18.48,-25.4 -5.8901,-5.8899 a 2.52,2.52 0 0 0 -3.4699,-0.089 l -23.49,21.14 z"

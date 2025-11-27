@@ -1,17 +1,23 @@
 {
   "name": "avatar-lib-test",
   "version": "1.0.0",
-  "main": "render-wrapper.mjs",
+  "main": "generate.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "avatar",
+    "svg",
+    "generator",
+    "javascript"
+  ],
+  "author": "Rômulo Mendes",
+  "description": "Gerador de avatares SVG programático",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.2.5",
+    "avatar-lib-test": "file:avatar-lib-test-1.0.0.tgz",
     "jsdom": "^27.2.0",
     "sharp": "^0.34.5",
     "svgdom": "^0.1.22"
