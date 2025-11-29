@@ -1,6 +1,6 @@
 {
   "name": "avatar-lib",
-  "version": "1.0.32",
+  "version": "1.4.0",
   "main": "generate.js",
   "type": "module",
   "scripts": {
