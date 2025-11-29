@@ -1,0 +1,19 @@
+{
+  "name": "avatar-lib",
+  "version": "1.0.32",
+  "main": "generate.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "keywords": ["avatar", "svg", "generator", "javascript"],
+  "author": "Rômulo Mendes",
+  "description": "Gerador de avatares SVG programático",
+  "license": "ISC",
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.2.5",
+    "jsdom": "^27.2.0",
+    "sharp": "^0.34.5",
+    "svgdom": "^0.1.22"
+  }
+}
